@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   # GET /users
   # GET /users.json
+  # Adding comment to be able to deploy
   def index
     @users = User.all
 
